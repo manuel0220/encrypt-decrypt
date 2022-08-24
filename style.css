@@ -1,0 +1,99 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.logo {
+  width: 31.09px;
+  height: 48px;
+  left: 44px;
+  margin: 40px 0 0 60px;
+  background-image: #0a3871;
+}
+.input-Text {
+  position: absolute;
+  width: 377px;
+  height: 48px;
+  left: 240px;
+  top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  border: none;
+  outline: none;
+  border-color: Transparent;
+  color: #0a3871;
+  background-color: #e5e5e5;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 464px;
+}
+.encrypt {
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  flex-grow: 0;
+  order: 0;
+  background: #0a3871;
+  color: #ffffff;
+  margin-right: 30px;
+  margin-left: 55px;
+  border: solid 0.5px #ffffff;
+  font-size: 16px;
+}
+.decrypt {
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  flex-grow: 0;
+  border-radius: 24px;
+  order: 1;
+  background: #d8dfe8;
+  color: #0a3871;
+  border: solid 0.5px #0a3871;
+  font-size: 16px;
+}
+.text-area {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 800px;
+  top: 30px;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+.messaje {
+  position: absolute;
+  width: 236px;
+  height: 381px;
+  left: 70px;
+  top: 52px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
+  background: url(./img/Muñeco.png) center center no-repeat;
+  border: none;
+}
+.copy {
+  margin-top: 520px;
+  margin-left: 39px;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  color: #052051;
+  border: solid 0.5px #0a3871;
+  font-size: 16px;
+}
